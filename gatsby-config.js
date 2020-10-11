@@ -18,14 +18,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extensions: ['.mdx', '.md'],
+        extensions: [".mdx", ".md"],
         defaultLayouts: {
           // This entry template will switch the page template based on
           // a frontmatter value provided in the CMS, allowing users to
           // choose different template layouts.
-          default: require.resolve(`./src/page-templates/cms-entry.template.js`)
+          default: require.resolve(
+            `./src/page-templates/cms-entry.template.js`
+          ),
         },
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -39,13 +41,19 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`, // for custom preview in the Netlify CMS
+        // fix  https://github.com/renvrant/gatsby-mdx-netlify-cms-starter/issues/10
+        customizeWebpackConfig: config => {
+          config.node = {
+            ...config.node,
+            fs: "empty",
+            child_process: "empty",
+            module: "empty",
+          }
+        },
       },
     },
   ],
