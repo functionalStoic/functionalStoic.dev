@@ -3,7 +3,7 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `𝑓(S)`
+    siteTitle: `𝑓(Stoic)`
   },
   plugins: [
     {
@@ -42,8 +42,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `𝑓(S)`,
-        short_name: `𝑓(S)`,
+        name: `𝑓(Stoic)`,
+        short_name: `𝑓(Stoic)`,
         description: `My Thoughts + Digital Garden`,
         start_url: `/`,
         background_color: `#fff`,
