@@ -12,6 +12,9 @@ tags:
 banner: ./git-add-patch.png
 canonicalUrl: https://functionalstoic.dev/improving-my-git-hygiene-with-patch
 ---
+import diffGIF from './git-add-patch-in-vscode.gif'
+
+
 ![Git Add Patch](./git-add-patch.png "Git Add Patch")
 
 My experience was occasional (but never heavy) use of [gitKraken](https://www.gitkraken.com/) to commit a certain section of code. However, most of my daily git work happens while using the [VSCode Diff UI](https://code.visualstudio.com/docs/editor/versioncontrol) or via the CLI.
@@ -33,7 +36,7 @@ So I'm not unfamiliar with the CLI but have not found it useful for file diffing
 
 Fast-forward to today when I came across a [tweet](https://mobile.twitter.com/kyleshevlin/status/1152339936722317312) from [@kyleshevlin](https://mobile.twitter.com/kyleshevlin)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">\\\\`git add -p\\\\` has become one of my favorite git commands. I recommend getting to know how it works, really helps you make better, atomic commits, even after doing bunch of work. 👍</p>&mdash; Kyle Shevlin (@kyleshevlin) <a href="https://twitter.com/kyleshevlin/status/1152339936722317312?ref_src=twsrc%5Etfw">July 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">`git add -p` has become one of my favorite git commands. I recommend getting to know how it works, really helps you make better, atomic commits, even after doing bunch of work. 👍</p>&mdash; Kyle Shevlin (@kyleshevlin) <a href="https://twitter.com/kyleshevlin/status/1152339936722317312?ref_src=twsrc%5Etfw">July 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 With the intriguing hook of "becoming one of my favorite git commands", I was drawn in to explore. The deliverable of "better, atomic commits" meets the criteria for all good git hygiene improvement.
 
@@ -51,7 +54,6 @@ Interactively choose hunks of patch between the index and the work tree and add 
 to the index. This gives the user a chance to review the difference before adding 
 modified contents to the index.
 ```
-
 As the article and others will explain, adding `-p` to the `git add` command will walk you through an interactive selection of chunks of code (instead of a committing a whole file), allowing for adding just those chunks to your next commit.
 
 Simple enough, and I plan to integrate this much more often into my daily work. However, as this falls into the Diffing files category of my git usage, and I diff files with git inside of VSCode, I immediately started searching how to use this workflow inside the Diff UI of VSCode.
@@ -67,7 +69,7 @@ Now I just needed a keyboard shortcut. This [Stackoverflow post](https://stackov
 
 Adding this to your keyboard shortcuts/bindings will allow for pressing `s` and `u` while highlighting a specific line/selection that has changed and staging it for your next commit.
 
-```
+```json
 {
   "key": "s",
   "command": "git.stageSelectedRanges",
@@ -84,4 +86,4 @@ I'm excited to use this new improvement for "better, more atomic commits".
 
 Thanks [Kyle](https://mobile.twitter.com/kyleshevlin), [Jacob](https://dev.to/jacobherrington) and [Markus](https://stackoverflow.com/users/6279949/markus-klug) for the inspiration to kick off that process!
 
-![git add -patch in VSCode](./git-add-patch-in-vscode.gif "git add -patch in VSCode")
+<img src={diffGIF} alt="git add --patch in VSCode" width="100%" />
