@@ -6,8 +6,10 @@
 
 ### Helpful posts about modifying theme
 
-- [Making some custom changes to gatsby starter theme | bobby_dreamer](https://bobbydreamer.com/custom-changes-to-gatsby-theme)
-- [(LekoArts/gatsby-starter-minimal-blog) - Cannot locate the `src` folder · Issue #460 · LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes/issues/460)
+- [Make custom changes to gatsby starter theme | bobby_dreamer](https://bobbydreamer.com/custom-changes-to-gatsby-theme)
+- [GH Issue 460 · LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes/issues/460)
+- [Shadowing in Gatsby Themes](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/shadowing/)
+
 <p align="center">
   <a href="https://minimal-blog.lekoarts.de">
     <img alt="LekoArts" src="https://img.lekoarts.de/gatsby/gatsby-site-illustration.png" />
