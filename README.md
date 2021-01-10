@@ -1,4 +1,7 @@
-# [Gatsby Overview Page](https://www.gatsbyjs.com/plugins/@lekoarts/gatsby-theme-minimal-blog/)
+# functionalStoic.dev
+
+### Key Links
+- [Theme Overview Page](https://www.gatsbyjs.com/plugins/@lekoarts/gatsby-theme-minimal-blog/)
 
 <p align="center">
   <a href="https://minimal-blog.lekoarts.de">
