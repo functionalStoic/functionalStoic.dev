@@ -18,6 +18,10 @@ module.exports = {
           {
             title: `About`,
             slug: `/about`
+          },
+          {
+            title: `Uses`,
+            slug: `/uses`
           }
         ],
         externalLinks: [
