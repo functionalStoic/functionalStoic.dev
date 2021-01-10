@@ -26,10 +26,6 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/functionalStoic`
-          },
-          {
             name: `Github`,
             url: `https://www.github.com/functionalStoic/`
           }
