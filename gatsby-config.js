@@ -42,6 +42,9 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`
     },
     {
+      resolve: `gatsby-remark-images`
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `𝑓(Stoic)`,
