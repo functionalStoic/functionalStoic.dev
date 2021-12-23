@@ -28,7 +28,8 @@ module.exports = {
             name: `Github`,
             url: `https://www.github.com/functionalStoic/`
           }
-        ]
+        ],
+        formatString: 'YYYY.MM.DD',
       }
     },
     {
