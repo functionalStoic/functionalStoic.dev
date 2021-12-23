@@ -31,6 +31,7 @@ module.exports = {
         ],
         formatString: 'YYYY.MM.DD',
         showCopyButton: true,
+        showLineNumbers: true
       }
     },
     {
