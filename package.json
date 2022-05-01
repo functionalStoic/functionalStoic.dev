@@ -16,7 +16,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-minimal-blog": "4.1.4",
+    "@lekoarts/gatsby-theme-minimal-blog": "4.1.5",
     "gatsby": "4.10.1",
     "gatsby-plugin-google-analytics": "4.10.0",
     "gatsby-plugin-manifest": "4.10.1",
