@@ -17,12 +17,12 @@
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "4.1.5",
-    "gatsby": "4.10.1",
-    "gatsby-plugin-google-analytics": "4.10.0",
-    "gatsby-plugin-manifest": "4.10.1",
+    "gatsby": "4.13.1",
+    "gatsby-plugin-google-analytics": "4.13.0",
+    "gatsby-plugin-manifest": "4.13.0",
     "gatsby-plugin-netlify": "4.3.1",
-    "gatsby-plugin-offline": "5.10.1",
-    "gatsby-plugin-sitemap": "5.10.1",
+    "gatsby-plugin-offline": "5.13.0",
+    "gatsby-plugin-sitemap": "5.13.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "1.1.26",
     "react": "17.0.2",
     "react-dom": "17.0.2"
