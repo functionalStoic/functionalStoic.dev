@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^6.0.5",
-    "babel-plugin-lodash": "^3.3.4",
     "gatsby": "^5.5.0",
     "gatsby-plugin-feed": "^5.5.0",
     "gatsby-plugin-google-analytics": "^5.8.0",
