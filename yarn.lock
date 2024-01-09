@@ -1635,15 +1635,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@citation-js/core@npm:^0.6.8":
-  version: 0.6.9
-  resolution: "@citation-js/core@npm:0.6.9"
+"@citation-js/core@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "@citation-js/core@npm:0.7.1"
   dependencies:
     "@citation-js/date": "npm:^0.5.0"
     "@citation-js/name": "npm:^0.4.2"
     fetch-ponyfill: "npm:^7.1.0"
     sync-fetch: "npm:^0.4.1"
-  checksum: 2ba9c783f540b4ed3d16df9d847972d6736023ae74c538650d4dea5cd1a3e13c0b1a3e94636171e6a51756fcb813e51dd3c71b46594391debde9602b5d42fede
+  checksum: cabe110f1f1e4e6cbfc5bb6627ca12690eb5032188106074b9aa0040fce8419b7cf5807594ae276226ef26641fe2f146a1be6fcbef3f1afa72b41fc7aabd1dc7
   languageName: node
   linkType: hard
 
@@ -1661,40 +1661,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@citation-js/plugin-bibjson@npm:^0.6.8":
-  version: 0.6.9
-  resolution: "@citation-js/plugin-bibjson@npm:0.6.9"
+"@citation-js/plugin-bibjson@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "@citation-js/plugin-bibjson@npm:0.7.2"
   dependencies:
     "@citation-js/date": "npm:^0.5.0"
     "@citation-js/name": "npm:^0.4.2"
   peerDependencies:
-    "@citation-js/core": ^0.6.0
-  checksum: 19e8d451e228d02bbcfe9018e6bd50f60832a1299209a0fa95551780c7574e123a14bcf54903cfe874743d43bb393dd7c63f5f4e02bd8277b45c31d224ae3b8b
+    "@citation-js/core": ^0.7.0
+  checksum: 35f22ed4d301a221e8417d7357598345216278787da13d65aba14069c81baa4e8e3ac6ce0f2886769d037b8246f4040ab67fec9c70b37cbed55b4db088f3af95
   languageName: node
   linkType: hard
 
-"@citation-js/plugin-bibtex@npm:^0.6.8":
-  version: 0.6.9
-  resolution: "@citation-js/plugin-bibtex@npm:0.6.9"
+"@citation-js/plugin-bibtex@npm:^0.7.2":
+  version: 0.7.5
+  resolution: "@citation-js/plugin-bibtex@npm:0.7.5"
   dependencies:
     "@citation-js/date": "npm:^0.5.0"
     "@citation-js/name": "npm:^0.4.2"
     moo: "npm:^0.5.1"
   peerDependencies:
-    "@citation-js/core": ^0.6.0
-  checksum: 63c1daff2bf6fe7e12a76fc7c657f499a69bb7951e992f4a461b25dc3061a3868b7505a18267da45309c6f5a42246b0621d6c2c6b86ffe35fdc386ba6623480a
+    "@citation-js/core": ^0.7.0
+  checksum: a1e322bb1f37ae696e49176076c5d638a01811aaf09ca68a2e877ce9f99dd34dd2a3d48b4393c2211a217fb1d9cb625c94308d4f7829320ef7ca2eef55da1818
   languageName: node
   linkType: hard
 
-"@citation-js/plugin-csl@npm:^0.6.8":
-  version: 0.6.9
-  resolution: "@citation-js/plugin-csl@npm:0.6.9"
+"@citation-js/plugin-csl@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "@citation-js/plugin-csl@npm:0.7.2"
   dependencies:
     "@citation-js/date": "npm:^0.5.0"
     citeproc: "npm:^2.4.6"
   peerDependencies:
-    "@citation-js/core": ^0.6.0
-  checksum: 29453763dfc00c02be9d40ce158015e0c43b97b3cfce7b3ad4f0a6724ea612221ba50b1021585256fc73833543ec086725504f7ad3074d77fec6e52a076e017c
+    "@citation-js/core": ^0.7.0
+  checksum: f4dc2b255f77b8c7ca9b0ba96739c53f5be5f23b1f27c4b53af8446f8d0e217be6eb9440784ec8f9891c9e1770bdb0e4505c42ec40299440ea8cbf23c112bc1a
   languageName: node
   linkType: hard
 
@@ -4498,12 +4498,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-fetch@npm:^3.1.5":
-  version: 3.1.8
-  resolution: "cross-fetch@npm:3.1.8"
+"cross-fetch@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "cross-fetch@npm:4.0.0"
   dependencies:
     node-fetch: "npm:^2.6.12"
-  checksum: 4c5e022ffe6abdf380faa6e2373c0c4ed7ef75e105c95c972b6f627c3f083170b6886f19fb488a7fa93971f4f69dcc890f122b0d97f0bf5f41ca1d9a8f58c8af
+  checksum: 386727dc4c6b044746086aced959ff21101abb85c43df5e1d151547ccb6f338f86dec3f28b9dbddfa8ff5b9ec8662ed2263ad4607a93b2dc354fb7fe3bbb898a
   languageName: node
   linkType: hard
 
@@ -6288,13 +6288,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hast-util-from-dom@npm:^4.0.0, hast-util-from-dom@npm:^4.2.0":
+"hast-util-from-dom@npm:^4.0.0":
   version: 4.2.0
   resolution: "hast-util-from-dom@npm:4.2.0"
   dependencies:
     hastscript: "npm:^7.0.0"
     web-namespaces: "npm:^2.0.0"
   checksum: bfb5d739ebd2177d37568c2cccb86a6df0edbc5565c4ec78987ca6492e5dd4a7f724f51b107c20f63612bc5c4561c98dafd09a685236d803ea476d65aaca566e
+  languageName: node
+  linkType: hard
+
+"hast-util-from-dom@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "hast-util-from-dom@npm:5.0.0"
+  dependencies:
+    "@types/hast": "npm:^3.0.0"
+    hastscript: "npm:^8.0.0"
+    web-namespaces: "npm:^2.0.0"
+  checksum: 1b0a9d65eb8f8cd3616559190bb6db271b7b4f72a13c5dc16abac264b6f7145beb408fbaa497d1b5c725d55392b951972d8313802bfe90ccac33f888ec34c63c
   languageName: node
   linkType: hard
 
@@ -6323,7 +6334,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hast-util-from-parse5@npm:^7.0.0, hast-util-from-parse5@npm:^7.1.0":
+"hast-util-from-parse5@npm:^7.0.0":
   version: 7.1.2
   resolution: "hast-util-from-parse5@npm:7.1.2"
   dependencies:
@@ -6335,6 +6346,22 @@ __metadata:
     vfile-location: "npm:^4.0.0"
     web-namespaces: "npm:^2.0.0"
   checksum: c1002816d0235ff0a1e888d71c191d3ecfbaba510aaef86eec00edcba8803a3e0ad901bb0e5430a9d2aee2d52c31aabacae8282394dc519c333017a46c68d1c8
+  languageName: node
+  linkType: hard
+
+"hast-util-from-parse5@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "hast-util-from-parse5@npm:8.0.1"
+  dependencies:
+    "@types/hast": "npm:^3.0.0"
+    "@types/unist": "npm:^3.0.0"
+    devlop: "npm:^1.0.0"
+    hastscript: "npm:^8.0.0"
+    property-information: "npm:^6.0.0"
+    vfile: "npm:^6.0.0"
+    vfile-location: "npm:^5.0.0"
+    web-namespaces: "npm:^2.0.0"
+  checksum: 4a30bb885cff1f0e023c429ae3ece73fe4b03386f07234bf23f5555ca087c2573ff4e551035b417ed7615bde559f394cdaf1db2b91c3b7f0575f3563cd238969
   languageName: node
   linkType: hard
 
@@ -6433,6 +6460,15 @@ __metadata:
   dependencies:
     "@types/hast": "npm:^2.0.0"
   checksum: 34ac1707a477fd9764e328087163f1f21857bdb0f8d425bf41f6def7baf840e50e4bca2eb03072e3da4e39856de28893c4b688dcba0cc305160d53afcece4df4
+  languageName: node
+  linkType: hard
+
+"hast-util-parse-selector@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "hast-util-parse-selector@npm:4.0.0"
+  dependencies:
+    "@types/hast": "npm:^3.0.0"
+  checksum: 5e98168cb44470dc274aabf1a28317e4feb09b1eaf7a48bbaa8c1de1b43a89cd195cb1284e535698e658e3ec26ad91bc5e52c9563c36feb75abbc68aaf68fb9f
   languageName: node
   linkType: hard
 
@@ -6581,6 +6617,19 @@ __metadata:
     property-information: "npm:^6.0.0"
     space-separated-tokens: "npm:^2.0.0"
   checksum: 579912b03ff4a5b19eb609df7403c6dba2505ef1a1e2bc47cbf467cbd7cffcd51df40e74d882de1ccdda40aaf18487f82619eb9cb9f2077cba778017e95e868e
+  languageName: node
+  linkType: hard
+
+"hastscript@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "hastscript@npm:8.0.0"
+  dependencies:
+    "@types/hast": "npm:^3.0.0"
+    comma-separated-tokens: "npm:^2.0.0"
+    hast-util-parse-selector: "npm:^4.0.0"
+    property-information: "npm:^6.0.0"
+    space-separated-tokens: "npm:^2.0.0"
+  checksum: f0b54bbdd710854b71c0f044612db0fe1b5e4d74fa2001633dc8c535c26033269f04f536f9fd5b03f234de1111808f9e230e9d19493bf919432bb24d541719e0
   languageName: node
   linkType: hard
 
@@ -9469,14 +9518,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse5@npm:^6.0.0, parse5@npm:^6.0.1":
+"parse5@npm:^6.0.0":
   version: 6.0.1
   resolution: "parse5@npm:6.0.1"
   checksum: 595821edc094ecbcfb9ddcb46a3e1fe3a718540f8320eff08b8cf6742a5114cce2d46d45f95c26191c11b184dcaf4e2960abcd9c5ed9eb9393ac9a37efcfdecb
   languageName: node
   linkType: hard
 
-"parse5@npm:^7.0.0":
+"parse5@npm:^7.0.0, parse5@npm:^7.1.2":
   version: 7.1.2
   resolution: "parse5@npm:7.1.2"
   dependencies:
@@ -10102,24 +10151,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rehype-citation@npm:^1.0.2":
-  version: 1.0.3
-  resolution: "rehype-citation@npm:1.0.3"
+"rehype-citation@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "rehype-citation@npm:2.0.0"
   dependencies:
-    "@citation-js/core": "npm:^0.6.8"
+    "@citation-js/core": "npm:^0.7.1"
     "@citation-js/date": "npm:^0.5.1"
     "@citation-js/name": "npm:^0.4.2"
-    "@citation-js/plugin-bibjson": "npm:^0.6.8"
-    "@citation-js/plugin-bibtex": "npm:^0.6.8"
-    "@citation-js/plugin-csl": "npm:^0.6.8"
+    "@citation-js/plugin-bibjson": "npm:^0.7.2"
+    "@citation-js/plugin-bibtex": "npm:^0.7.2"
+    "@citation-js/plugin-csl": "npm:^0.7.2"
     citeproc: "npm:^2.4.63"
-    cross-fetch: "npm:^3.1.5"
-    hast-util-from-dom: "npm:^4.2.0"
-    hast-util-from-parse5: "npm:^7.1.0"
-    parse5: "npm:^6.0.1"
-    unified: "npm:^10.1.0"
-    unist-util-visit: "npm:^4.1.0"
-  checksum: 1dd33dfb3af41ac26c3ec68271eee4341ab9e129834f32d48890ee679972b56087ad0943f73e9b3a70910ea999af23bb1e7a785885c1f4751be203d3d6b6ed7f
+    cross-fetch: "npm:^4.0.0"
+    hast-util-from-dom: "npm:^5.0.0"
+    hast-util-from-parse5: "npm:^8.0.1"
+    js-yaml: "npm:^4.1.0"
+    parse5: "npm:^7.1.2"
+    unified: "npm:^11.0.0"
+    unist-util-visit: "npm:^5.0.0"
+  checksum: 6a7646d896c13071e225d685c7f47d751f04ffb0aa189aef2f1e2d744406cde8a539b9c61878b17db820ed6e89cc8f6e7463e0d71beb2530dca51b80311ff60d
   languageName: node
   linkType: hard
 
@@ -11442,7 +11492,7 @@ __metadata:
     react-dom: "npm:18.2.0"
     reading-time: "npm:1.5.0"
     rehype-autolink-headings: "npm:^7.0.0"
-    rehype-citation: "npm:^1.0.2"
+    rehype-citation: "npm:^2.0.0"
     rehype-katex: "npm:^6.0.3"
     rehype-preset-minify: "npm:6.0.0"
     rehype-prism-plus: "npm:^1.6.0"
@@ -11808,7 +11858,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unified@npm:^10.0.0, unified@npm:^10.1.0, unified@npm:^10.1.2":
+"unified@npm:^10.0.0, unified@npm:^10.1.2":
   version: 10.1.2
   resolution: "unified@npm:10.1.2"
   dependencies:
@@ -12067,6 +12117,16 @@ __metadata:
     "@types/unist": "npm:^2.0.0"
     vfile: "npm:^5.0.0"
   checksum: 77097e819579214d3346aaa2b06e4d23e2413221ac4914679d312cf64973011b76f0e2424fa8f18987befcd6ed60f4f6c4c6ebd5d5326062173a95f6b4445a96
+  languageName: node
+  linkType: hard
+
+"vfile-location@npm:^5.0.0":
+  version: 5.0.2
+  resolution: "vfile-location@npm:5.0.2"
+  dependencies:
+    "@types/unist": "npm:^3.0.0"
+    vfile: "npm:^6.0.0"
+  checksum: cfc7e49de93ac5be6f3c9a9fe77676756e00d33a6c69d9c1ce279b06eedafa67fe5d0da2334b40e97963c43b014501bca2f829dfd6622a3290fb6f7dd2b9339e
   languageName: node
   linkType: hard
 
