@@ -3,6 +3,7 @@ import 'katex/dist/katex.css'
 
 import { components } from '@/components/MDXComponents'
 import siteMetadata from '@/data/siteMetadata'
+import PageSimple from '@/layouts/PageSimple'
 import PostBanner from '@/layouts/PostBanner'
 import PostLayout from '@/layouts/PostLayout'
 import PostSimple from '@/layouts/PostSimple'
@@ -15,6 +16,7 @@ import { allCoreContent, coreContent, sortPosts } from 'pliny/utils/contentlayer
 
 const defaultLayout = 'PostLayout'
 const layouts = {
+  PageSimple,
   PostSimple,
   PostLayout,
   PostBanner,
