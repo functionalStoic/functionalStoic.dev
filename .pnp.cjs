@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@next/bundle-analyzer", "npm:14.2.18"],\
           ["@svgr/webpack", "npm:8.1.0"],\
-          ["@tailwindcss/forms", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.7"],\
+          ["@tailwindcss/forms", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.9"],\
           ["@tailwindcss/typography", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.15"],\
           ["@types/mdx", "npm:2.0.13"],\
           ["@types/react", "npm:18.3.12"],\
@@ -5104,17 +5104,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@tailwindcss/forms", [\
-      ["npm:0.5.7", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@tailwindcss-forms-npm-0.5.7-67f8a9f248-10c0.zip/node_modules/@tailwindcss/forms/",\
+      ["npm:0.5.9", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@tailwindcss-forms-npm-0.5.9-a168613ca4-10c0.zip/node_modules/@tailwindcss/forms/",\
         "packageDependencies": [\
-          ["@tailwindcss/forms", "npm:0.5.7"]\
+          ["@tailwindcss/forms", "npm:0.5.9"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.7", {\
-        "packageLocation": "./.yarn/__virtual__/@tailwindcss-forms-virtual-64b1a32c8b/5/cache/others/berry/cache/@tailwindcss-forms-npm-0.5.7-67f8a9f248-10c0.zip/node_modules/@tailwindcss/forms/",\
+      ["virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.9", {\
+        "packageLocation": "./.yarn/__virtual__/@tailwindcss-forms-virtual-b6f51c1928/5/cache/others/berry/cache/@tailwindcss-forms-npm-0.5.9-a168613ca4-10c0.zip/node_modules/@tailwindcss/forms/",\
         "packageDependencies": [\
-          ["@tailwindcss/forms", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.7"],\
+          ["@tailwindcss/forms", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.9"],\
           ["@types/tailwindcss", null],\
           ["mini-svg-data-uri", "npm:1.4.4"],\
           ["tailwindcss", "npm:3.4.1"]\
@@ -14964,7 +14964,7 @@ const RAW_RUNTIME_STATE =
           ["tailwind-nextjs-starter-blog", "workspace:."],\
           ["@next/bundle-analyzer", "npm:14.2.18"],\
           ["@svgr/webpack", "npm:8.1.0"],\
-          ["@tailwindcss/forms", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.7"],\
+          ["@tailwindcss/forms", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.9"],\
           ["@tailwindcss/typography", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.15"],\
           ["@types/mdx", "npm:2.0.13"],\
           ["@types/react", "npm:18.3.12"],\
