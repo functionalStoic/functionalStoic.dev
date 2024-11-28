@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/my-notes/",
-      "destination": "https://publish.obsidian.md/serve?url=jasonsooter.com/my-notes"
+      "destination": "https://publish.obsidian.md/serve?url=https://www.jasonsooter.com/my-notes"
     },
     {
       "source": "/my-notes/:path*",
-      "destination": "https://publish.obsidian.md/serve?url=jasonsooter.com/my-notes/:path*"
+      "destination": "https://publish.obsidian.md/serve?url=https://www.jasonsooter.com/my-notes/:path*"
     }
   ]
 }
