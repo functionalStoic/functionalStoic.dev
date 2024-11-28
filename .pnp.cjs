@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@svgr/webpack", "npm:8.1.0"],\
           ["@tailwindcss/forms", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.7"],\
           ["@tailwindcss/typography", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.10"],\
-          ["@types/mdx", "npm:2.0.10"],\
+          ["@types/mdx", "npm:2.0.13"],\
           ["@types/react", "npm:18.3.12"],\
           ["@typescript-eslint/eslint-plugin", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:6.18.1"],\
           ["@typescript-eslint/parser", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:6.18.1"],\
@@ -3976,7 +3976,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@mdx-js/mdx", "npm:2.3.0"],\
           ["@types/estree-jsx", "npm:1.0.3"],\
-          ["@types/mdx", "npm:2.0.10"],\
+          ["@types/mdx", "npm:2.0.13"],\
           ["estree-util-build-jsx", "npm:2.2.2"],\
           ["estree-util-is-identifier-name", "npm:2.1.0"],\
           ["estree-util-to-js", "npm:1.2.0"],\
@@ -5238,10 +5238,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/mdx", [\
-      ["npm:2.0.10", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-mdx-npm-2.0.10-3471d7f48a-10c0.zip/node_modules/@types/mdx/",\
+      ["npm:2.0.13", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@types-mdx-npm-2.0.13-52981f86f6-10c0.zip/node_modules/@types/mdx/",\
         "packageDependencies": [\
-          ["@types/mdx", "npm:2.0.10"]\
+          ["@types/mdx", "npm:2.0.13"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14584,7 +14584,7 @@ const RAW_RUNTIME_STATE =
           ["@svgr/webpack", "npm:8.1.0"],\
           ["@tailwindcss/forms", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.7"],\
           ["@tailwindcss/typography", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.10"],\
-          ["@types/mdx", "npm:2.0.10"],\
+          ["@types/mdx", "npm:2.0.13"],\
           ["@types/react", "npm:18.3.12"],\
           ["@typescript-eslint/eslint-plugin", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:6.18.1"],\
           ["@typescript-eslint/parser", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:6.18.1"],\
