@@ -134,9 +134,9 @@ export default makeSource({
   mdx: {
     cwd: process.cwd(),
     remarkPlugins: [
-      remarkExtractFrontmatter,
+      remarkExtractFrontmatter(),
       remarkGfm,
-      remarkCodeTitles,
+      remarkCodeTitles(),
       remarkMath,
       remarkImgToJsx,
     ],
